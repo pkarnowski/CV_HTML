@@ -1,0 +1,196 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    justify-content: center;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+/* blok aside */
+
+aside {
+    width: 370px;
+    background: #1E2939;
+}
+
+.cv-photo {
+    margin-top: 40px;
+}
+
+.header-secondary {
+    color: #FFFFFF;
+}
+
+.contacts-links {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 24px;
+    /* opacity: 0.5; */
+}
+
+.contacts-links-data {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.5;
+    margin-left: 10px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.list-secondary {
+    color: #FB6D3A;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style-position: inside;
+}
+
+.list-secondary-item {
+    color: #FFFFFF;
+}
+
+.contact-block {
+    margin-top: 51px;
+    margin-left: 40px;
+}
+
+.tech-skills-block {
+    margin-top: 47px;
+    margin-left: 40px;
+}
+
+.soft-skills-block {
+    margin-top: 47px;
+    margin-left: 40px;
+}
+
+/* tu się zaczyna blok main */
+
+main {
+    padding: 102px 88px 102px 88px;
+}
+
+.main-description {
+    width: 400px;
+} 
+
+.job-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+h1 {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 19px;
+    margin-bottom: 24px;
+}
+
+.description {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.projects {
+    width: 485px;
+    height: 107px;
+    margin-bottom: 51px;
+}
+
+.list-primary {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-left: 0px; 
+    list-style-position: inside;
+}
+
+.list-primary-item {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    text-decoration-line: none;
+}
+
+.header-primary {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 45px;
+    margin-bottom: 12px;
+}
+
+.job-name {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.highlight {
+    color: #FB6D3A;
+}
+
+.job-date {
+    color: #A8A8A8;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+}
+
+.line {
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.duties {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 17px;
+    /* list-style-position: inside; WYŁĄCZYŁEM Z UWAGI NA BRAK JUSTOWANIA TEKSTU */
+    margin-top: 8px;
+}    
+
+.vocation-name {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
